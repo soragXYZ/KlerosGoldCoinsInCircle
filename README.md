@@ -21,7 +21,7 @@ Let's start a game with 2^(n+1) players each having x pieces at the start. So th
 We note Jri the player number r in game turn number i  
 An even player receives 2 coins from his neighbour, and gives 1, while it is the opposite for an odd player, so we have Jri = x + i if r is even and Jri = x - i if r is odd  
 As before, there exists a rank i such that i = X, so we have:  
-Jri = 2x if r is even, Jri = O if r is odd  
+Jri = 2x if r is even, Jri = 0 if r is odd  
 Which is equivalent to say that out of 2^(n+1) players, half of the players have been eliminated: all the odd players have given all their coins to their neighbor  
 There are therefore 2^n players in play, each with 2X tokens.  
 However, according to the heredity property stated above, the game therefore ends with 1 remaining player owning all the other pieces = 4^nx = 2^(n+1)x  
